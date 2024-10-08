@@ -1,4 +1,3 @@
-// app/UnloggedApp.js
 import React from 'react'
 import { View, Text, Button, StyleSheet } from 'react-native'
 import { useRouter } from 'expo-router' // Use expo-router's router for navigation
