@@ -4,7 +4,7 @@ import { useDispatch } from 'react-redux'
 import { logout } from '../redux/reducers/userSlice' // Import logout action
 import { Stack } from 'expo-router'
 
-export default function LoggedApp() {
+export default function loggedApp() {
 	const dispatch = useDispatch()
 
 	const handleLogout = () => {

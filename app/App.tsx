@@ -18,8 +18,8 @@ export default function App() {
 	return (
 		<ThemeProvider value={theme}>
 			<Stack screenOptions={{ headerShown: false }}>
-				<Stack.Screen name="LoginScreen" />
-				{isLoggedIn ? <Stack.Screen name="LoggedApp" /> : <Stack.Screen name="UnloggedApp" />}
+				<Stack.Screen name="loginScreen" />
+				{isLoggedIn ? <Stack.Screen name="loggedApp" /> : <Stack.Screen name="unloggedApp" />}
 			</Stack>
 		</ThemeProvider>
 	)

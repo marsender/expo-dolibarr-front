@@ -2,11 +2,11 @@ import React from 'react'
 import { View, Text, Button, StyleSheet } from 'react-native'
 import { useRouter } from 'expo-router' // Use expo-router's router for navigation
 
-export default function UnloggedApp() {
+export default function unloggedApp() {
 	const router = useRouter()
 
 	const handleLogin = () => {
-		router.push('/LoginScreen') // Navigate to login screen
+		router.push('/loginScreen') // Navigate to login screen
 	}
 
 	return (
