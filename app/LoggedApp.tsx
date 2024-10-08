@@ -2,9 +2,8 @@ import React from 'react'
 import { View, Text, Button, StyleSheet } from 'react-native'
 import { useDispatch } from 'react-redux'
 import { logout } from '../redux/reducers/userSlice' // Import logout action
-import { Stack } from 'expo-router'
 
-export default function loggedApp() {
+export default function LoggedApp() {
 	const dispatch = useDispatch()
 
 	const handleLogout = () => {
@@ -13,7 +12,6 @@ export default function loggedApp() {
 
 	return (
 		<View style={styles.container}>
-			<Stack.Screen />
 			<Text style={styles.title}>Welcome, you're logged in!</Text>
 			<Button title="Logout" onPress={handleLogout} />
 		</View>
