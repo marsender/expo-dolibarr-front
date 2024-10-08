@@ -10,14 +10,17 @@ import '../i18n'
 export default function App() {
 	const isLoggedIn = useSelector(selectIsLoggedIn)
 	const user = new User(useSelector(selectUser))
-	api.setToken(user.getToken())
+	//api.setToken(user.getToken())
 	const colorScheme = useColorScheme()
 	const theme = colorScheme === 'dark' ? DarkTheme : DefaultTheme
 
 	// https://docs.expo.dev/router/advanced/stack/
 	return (
 		<ThemeProvider value={theme}>
-			<Stack screenOptions={{ headerShown: false }}>{isLoggedIn ? <Stack.Screen name="LoggedApp" /> : <Stack.Screen name="UnloggedApp" />}</Stack>
+			<Stack screenOptions={{ headerShown: false }}>
+				<Stack.Screen name="LoginScreen" />
+				{isLoggedIn ? <Stack.Screen name="LoggedApp" /> : <Stack.Screen name="UnloggedApp" />}
+			</Stack>
 		</ThemeProvider>
 	)
 }
