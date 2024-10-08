@@ -1,0 +1,62 @@
+{
+	"app": {
+		"title": "Gestion"
+	},
+	"label": {
+		"connection": "Connexion",
+		"logout": "Déconnexion",
+		"username": "Utilisateur",
+		"password": "Mot de passe",
+		"cancel": "Annuler",
+		"loading": "Chargement",
+		"download": "Télécharger",
+		"add": "Ajouter",
+		"return": "Retour"
+	},
+	"home": {
+		"title": "Accueil"
+	},
+	"login": {
+		"title": "Connexion",
+		"error": "Login incorrect"
+	},
+	"logout": {
+		"title": "Déconnexion"
+	},
+	"invoices": {
+		"title": "Factures"
+	},
+	"invoice": {
+		"title": "Facture",
+		"create": "Nouvelle facture"
+	},
+	"invoiceline": {
+		"desc": "Description",
+		"subprice": "Prix unitaire HT",
+		"qty": "Quantité",
+		"tva_tx": "TVA",
+		"remise_percent": "Réduction (%)"
+	},
+	"thirdparties": {
+		"title": "Clients"
+	},
+	"thirdparty": {
+		"title": "Client",
+		"create": "Nouveau client",
+		"name": "Nom",
+		"email": "Email",
+		"phone": "Téléphone",
+		"address": "Adresse",
+		"zip": "Code postal",
+		"town": "Vile",
+		"select": "Sélectionner un client"
+	},
+	"bankaccount": {
+		"title": "Compte bancaire",
+		"select": "Sélectionner un compte bancaire"
+	},
+	"error": {
+		"empty-fields": "Champs non renseignés",
+		"incorrect-fields": "Champs incorrects"
+	}
+}
