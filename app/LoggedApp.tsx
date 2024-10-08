@@ -4,7 +4,7 @@ import { useDispatch } from 'react-redux'
 import { logout } from '../redux/reducers/userSlice' // Import logout action
 import { Stack } from 'expo-router'
 
-const LoggedApp = () => {
+export default function LoggedApp() {
 	const dispatch = useDispatch()
 
 	const handleLogout = () => {
@@ -19,8 +19,6 @@ const LoggedApp = () => {
 		</View>
 	)
 }
-
-export default LoggedApp
 
 const styles = StyleSheet.create({
 	container: {

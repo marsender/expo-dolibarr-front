@@ -2,7 +2,7 @@ import React from 'react'
 import { View, Text, Button, StyleSheet } from 'react-native'
 import { useRouter } from 'expo-router' // Use expo-router's router for navigation
 
-const UnloggedApp = () => {
+export default function UnloggedApp() {
 	const router = useRouter()
 
 	const handleLogin = () => {
@@ -16,8 +16,6 @@ const UnloggedApp = () => {
 		</View>
 	)
 }
-
-export default UnloggedApp
 
 const styles = StyleSheet.create({
 	container: {
