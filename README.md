@@ -1,8 +1,10 @@
 # expo-dolibarr-front
 
-React native Dolibarr front
+## Description
 
-This is an [Expo](https://expo.dev) project created with [`npx create-expo-app@latest`](https://www.npmjs.com/package/create-expo-app) command.
+Expo React Native mobile starter front-end for the Dolibarr ERP/CRM
+
+[Expo](https://expo.dev) project created with [`npx create-expo-app@latest`](https://www.npmjs.com/package/create-expo-app) command.
 
 ## Requirements
 

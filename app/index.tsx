@@ -6,8 +6,8 @@ import store from '../redux/store'
 import App from './App'
 
 // process.env.LOCAL_URL = 'http://localhost:9011/'
-// process.env.SITE_URL = 'http://react-dolibarr-front.localhost:9011/'
-// process.env.API_URL = 'http://opale.localhost/dolibarr/api/index.php/'
+// process.env.SITE_URL = 'https://gestion.localhost/'
+// process.env.API_URL = 'https://compta.localhost/api/index.php/'
 // process.env.LOCALE = 'fr-FR'
 // process.env.CURRENCY = '€'
 
